@@ -11,7 +11,6 @@ function adicionarAmigo() {
     }   
     amigos.push(nomeAmigo);
     atualizarLista();
-    console.log(amigos);
     nome.value = '';
     nome.focus();
 }
