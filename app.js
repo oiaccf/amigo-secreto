@@ -10,9 +10,19 @@ function adicionarAmigo() {
         return;
     }   
     amigos.push(nomeAmigo);
+    atualizarLista();
     console.log(amigos);
     nome.value = '';
     nome.focus();
 }
 
+function atualizarLista() {
+    let listaAmigos = document.getElementById('listaAmigos');
+    listaAmigos.innerHTML = '';
 
+    for (let i = 0; i < amigos.length; i++) {
+        let item = document.createElement('li');
+        item.textContent = amigos[i];
+        listaAmigos.appendChild(item);
+    }
+}
