@@ -5,7 +5,7 @@
 <img src="https://github.com/user-attachments/assets/22f9fa20-286b-4e7c-a0f8-110d075e80e7"  heigth =500 width=500/ >
 </p>
 
-## Descrição do Projeto
+# Descrição do Projeto
 Projeto criado para o Challenge da Alura - One.
 O sorteador do amigo secreto, adiciona os nomes inseridos no campo dos nomes dos amigos, e com os nomes digitados monta uma lista de sorteio que é exibida na tela.
 Após mostar a lista, ao clicar no botão sortear amigo ele realiza um sorteio aleátorio dos nomes inseridos na lista, dentre estes ele sorteia um dos nomes e o exibe na tela. Assim selecionando um como
@@ -32,10 +32,11 @@ O código usado nese projeto possuí as seguintes funcionalidades:
 
 # 📁 Acesso ao projeto
 
-**Indique como é possível baixar ou acessar o código fonte do projeto, seja projeto inicial ou final**
+**O Projeto pode ser acessado pelo GitHub pelo seguinte link:** </p>
+https://github.com/oiaccf/amigo-secreto/tree/main/
+
 
 # 🛠️ Abrir e rodar o projeto
-
-**Apresente as instruções necessárias para abrir e executar o projeto**
+**Necessário apenas um browser (navegador) e internet para uso do projeto**
 
 
