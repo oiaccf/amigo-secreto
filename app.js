@@ -2,11 +2,17 @@
 let amigos = [];
 
 function adicionarAmigo() {
-    let nome = document.querySelector('input').value;
-    if (nome == '') {
+    let nome = document.getElementById('amigo');
+    let nomeAmigo = nome.value;
+
+    if (nomeAmigo == '') {
         alert('Por favor, digite um nome válido.');
         return;
-    }
-    amigos.push(nome);
+    }   
+    amigos.push(nomeAmigo);
     console.log(amigos);
+    nome.value = '';
+    nome.focus();
 }
+
+
